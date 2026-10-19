@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "lexical_correction": {
+    "enabled": true,
+    "reference_match_threshold": 0.82,
+    "fuzzy_reference_minimum_matches": 8,
+    "fuzzy_reference_minimum_similarity": 0.74,
+    "fuzzy_reference_word_threshold": 0.55,
+    "dictionary_auto_apply": false,
+    "dictionary_minimum_ocr_confidence": 45.0,
+    "dictionary_suggestion_min_similarity": 0.72,
+    "reference_texts": [
+      "1. poproboje jutro\n2. i stery jutro zamowie\n3. przy okazji zamowilem kurwa tytanowe imbusy z 3 dni temu\n4. moze tych nie polamie"
+    ]
+  },
+  "language_detection": {
+    "ocr_weight": 1.0,
+    "script_match_bonus": 0.25,
+    "minimum_text_characters": 3,
+    "languages": {
+      "eng": {"weight": 1.0},
+      "fra": {"weight": 1.0},
+      "deu": {"weight": 1.0},
+      "spa": {"weight": 1.0},
+      "ita": {"weight": 1.0},
+      "por": {"weight": 1.0},
+      "nld": {"weight": 1.0},
+      "rus": {"weight": 1.0},
+      "ukr": {"weight": 1.0},
+      "bul": {"weight": 1.0},
+      "srp": {"weight": 1.0},
+      "ell": {"weight": 1.0},
+      "ara": {"weight": 1.0},
+      "heb": {"weight": 1.0},
+      "hin": {"weight": 1.0},
+      "tha": {"weight": 1.0},
+      "jpn": {"weight": 1.0},
+      "chi_sim": {"weight": 1.0},
+      "chi_tra": {"weight": 1.0},
+      "kor": {"weight": 1.0}
+    },
+    "profiles": {
+      "pol": {
+        "weight": 1.15,
+        "training_texts": [
+          "poproboje jutro i stery jutro zamowie przy okazji zamowilem kurwa tytanowe imbusy z 3 dni temu moze tych nie polamie"
+        ]
+      }
+    }
+  },
+  "letter_scoring": {
+    "temperature": 0.25,
+    "default_weight": 1.0,
+    "default_bias": 0.0,
+    "languages": {
+      "eng": {
+        "letters": {
+          "a": {"weight": 1.0, "bias": 0.0},
+          "b": {"weight": 1.0, "bias": 0.0},
+          "c": {"weight": 1.0, "bias": 0.0},
+          "d": {"weight": 1.0, "bias": 0.0},
+          "e": {"weight": 1.0, "bias": 0.0},
+          "f": {"weight": 1.0, "bias": 0.0},
+          "g": {"weight": 1.0, "bias": 0.0},
+          "h": {"weight": 1.0, "bias": 0.0},
+          "i": {"weight": 1.0, "bias": 0.0},
+          "j": {"weight": 1.0, "bias": 0.0},
+          "k": {"weight": 1.0, "bias": 0.0},
+          "l": {"weight": 1.0, "bias": 0.0},
+          "m": {"weight": 1.0, "bias": 0.0},
+          "n": {"weight": 1.0, "bias": 0.0},
+          "o": {"weight": 1.0, "bias": 0.0},
+          "p": {"weight": 1.0, "bias": 0.0},
+          "q": {"weight": 1.0, "bias": 0.0},
+          "r": {"weight": 1.0, "bias": 0.0},
+          "s": {"weight": 1.0, "bias": 0.0},
+          "t": {"weight": 1.0, "bias": 0.0},
+          "u": {"weight": 1.0, "bias": 0.0},
+          "v": {"weight": 1.0, "bias": 0.0},
+          "w": {"weight": 1.0, "bias": 0.0},
+          "x": {"weight": 1.0, "bias": 0.0},
+          "y": {"weight": 1.0, "bias": 0.0},
+          "z": {"weight": 1.0, "bias": 0.0}
+        }
+      },
+      "pol": {
+        "temperature": 0.2,
+        "letters": {
+          "a": {"weight": 1.0, "bias": -0.0456},
+          "ą": {"weight": 1.0, "bias": -0.2508},
+          "b": {"weight": 1.0, "bias": -0.1221},
+          "c": {"weight": 1.0, "bias": -0.1630},
+          "ć": {"weight": 1.0, "bias": -0.2508},
+          "d": {"weight": 1.0, "bias": -0.1630},
+          "e": {"weight": 1.0, "bias": -0.0153},
+          "ę": {"weight": 1.0, "bias": -0.2508},
+          "f": {"weight": 1.0, "bias": -0.2508},
+          "g": {"weight": 1.0, "bias": -0.2508},
+          "h": {"weight": 1.0, "bias": -0.1630},
+          "i": {"weight": 1.0, "bias": -0.0242},
+          "j": {"weight": 1.0, "bias": -0.0751},
+          "k": {"weight": 1.0, "bias": -0.1221},
+          "l": {"weight": 1.0, "bias": -0.1221},
+          "ł": {"weight": 1.0, "bias": -0.2508},
+          "m": {"weight": 1.0, "bias": -0.0342},
+          "n": {"weight": 1.0, "bias": -0.0952},
+          "ń": {"weight": 1.0, "bias": -0.2508},
+          "o": {"weight": 1.0, "bias": 0.0},
+          "ó": {"weight": 1.0, "bias": -0.2508},
+          "p": {"weight": 1.0, "bias": -0.0751},
+          "r": {"weight": 1.0, "bias": -0.0456},
+          "s": {"weight": 1.0, "bias": -0.1221},
+          "ś": {"weight": 1.0, "bias": -0.2508},
+          "t": {"weight": 1.0, "bias": -0.0342},
+          "u": {"weight": 1.0, "bias": -0.0590},
+          "w": {"weight": 1.0, "bias": -0.0751},
+          "y": {"weight": 1.0, "bias": -0.0590},
+          "z": {"weight": 1.0, "bias": -0.0456},
+          "ź": {"weight": 1.0, "bias": -0.2508},
+          "ż": {"weight": 1.0, "bias": -0.2508}
+        }
+      }
+    }
+  }
+}
